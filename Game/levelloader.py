@@ -18,8 +18,8 @@ RG_DEFS = {(0, 0): IGNORE_TILE_VAL,
            (255, 0):"barrier",
            (255, 21):"bloodstone",
            (255,245): "sand",
-           (255, 255): "kr1stal",
-           (255, 100): "snow"}
+           (100, 100): "kr1stal",
+           (160, 250): "snow"}
 
 
 with open(LEVELS_PATH, "r") as levels_file:
