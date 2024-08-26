@@ -161,7 +161,7 @@ class Player(Creature):
         if not self.world.isTileValidForWalking(self.pos):
             self.pos = self.prev_pos
 
-        self.registerCooldown("movement_input", 4)
+        self.registerCooldown("movement_input", 0)
 
     def onMouseDown(self, pos, button):
         # If anything uses the button, player will hog mouse input
