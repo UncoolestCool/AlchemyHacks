@@ -19,7 +19,7 @@ RG_DEFS = {(0, 0): IGNORE_TILE_VAL,
            (255, 21):"bloodstone",
            (255, 245): "sand",
            (100, 100): "kr1stal",
-           (100, 250): "snow",
+           (160, 250): "snow",
            (100, 150): "swamp"}
 
 
